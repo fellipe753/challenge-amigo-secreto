@@ -1,5 +1,4 @@
 //Challenge amigo secreto por Fellipe Oliveira 25/01/2025
-
 let listaNomes = [];
 let campoExibicao = document.querySelector('ul');
 
@@ -31,6 +30,6 @@ function sortearAmigo(){
     exibirTextoNaTela(`O amigo secreto sorteado é: ${nomeSorteado}!`);
     campoExibicao.style.color = 'green';
     campoExibicao.style.fontSize = '30px';
-    console.log(numeroRandom);
-    console.log(nomeSorteado);  
+//    console.log(numeroRandom);
+//   console.log(nomeSorteado);  
 }
